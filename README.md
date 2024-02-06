@@ -1,7 +1,7 @@
 # Optimizasyon Projesi
 Bu proje, farklı arama algoritmalarını (genişletme öncelikli arama, derinlik öncelikli arama ve açgözlü arama) kullanarak bir labirentte başlangıç noktasından hedef noktasına ulaşmayı hedefler. Labirent, belirli boyutlarda rastgele oluşturulur ve bu labirentteki yol bulma algoritmaları performanslarını ölçer. Ayrıca, labirentteki engellerin ve taşların (ekstra zorluklar) algoritmanın çözüm süresine etkisini değerlendirir.
 
-##### Projede yapılanlar:
+#### Projede yapılanlar:
 
 - MazeSize sınıfı: Labirentlerin farklı boyutlarını belirler.
 - Maze sınıfı: Labirenti oluşturur, engelleri ve taşları ekler.
@@ -10,11 +10,11 @@ Bu proje, farklı arama algoritmalarını (genişletme öncelikli arama, derinli
 
 Projede amaç, farklı arama algoritmalarının labirent problemini nasıl çözdüğünü anlamak, performanslarını karşılaştırmak ve labirentteki engeller ve taşlar gibi farklı koşulların algoritmaların çözüm süresi üzerindeki etkisini gözlemlemektir.
 
-##### 1.	Proje Tanımı:
+#### 1.	Proje Tanımı:
 Bu proje, labirentlerin çeşitli kısıtlara göre oluşturulması ve çeşitli arama algoritmalarının(BFS, DFS, Greedy) bu labirentleri çözme sürelerinin ölçülmesi üzerine odaklanmaktadır. Labirentler farklı boyutlarda olabilir ve içerisinde belirli sayıda(15) taş bulunabilir ya da bulunmayabilir. Projede bulunan labirentler; 8x8, 12x12 ve 16x16 boyutlarından oluşmaktadır. Her bir boyutta labirentlerin taşlı ve taşsız durumu da karşılaştırılmıştır. Taşlı duruma göre algoritmamız yolu bulurken taşa takılırsa hızı 2 kat yavaşlıyor. Algoritmanın yolu bulurken geçirdiği süre de buna bağlı olarak artıyor. Proje, labirentlerin taşlı ve taşsız durumlarında çeşitli arama algoritmalarının performansını karşılaştırmayı amaçlamaktadır.
 
 
-##### Problemin Tanımı:
+#### Problemin Tanımı:
 1.	Labirentler, başlangıç ve hedef noktalarıyla birlikte belirli boyutlarda oluşturulur.
 2.	Labirentlerde belirli sayıda taş ve engel bulunabilir.
 3.	Proje, Breadth-First Search (BFS), Depth-First Search (DFS) ve henüz belirlenmemiş bir Greedy algoritması kullanarak labirentleri çözmeyi amaçlar.
@@ -22,7 +22,7 @@ Bu proje, labirentlerin çeşitli kısıtlara göre oluşturulması ve çeşitli
 5.	Labirentin çözümü sırasında taşlara veya engellere takılma durumu kontrol edilir.
 6.	Farklı labirent boyutları ve taşlı/taşsız durumlar için algoritmaların performansı karşılaştırılır.
 
-##### Tartışma ve Sonuç
+#### Tartışma ve Sonuç
 Bu projede, farklı boyutlarda ve taşlı/taşsız durumları içeren labirentler üzerinde Breadth-First Search (BFS), Depth-First Search (DFS) ve Greedy algoritmalarının performansı incelendi. Projenin temel sonuçları ve tartışma aşamaları şu şekildedir:
 **Performans Karşılaştırması:**
 - BFS, DFS ve Greedy algoritmalarının çözüm süreleri farklı labirent durumları için ölçüldü.
