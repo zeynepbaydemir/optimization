@@ -24,18 +24,22 @@ Bu proje, labirentlerin çeşitli kısıtlara göre oluşturulması ve çeşitli
 
 #### Tartışma ve Sonuç
 Bu projede, farklı boyutlarda ve taşlı/taşsız durumları içeren labirentler üzerinde Breadth-First Search (BFS), Depth-First Search (DFS) ve Greedy algoritmalarının performansı incelendi. Projenin temel sonuçları ve tartışma aşamaları şu şekildedir:
+
 **Performans Karşılaştırması:**
 - BFS, DFS ve Greedy algoritmalarının çözüm süreleri farklı labirent durumları için ölçüldü.
 -	BFS, genellikle kısa sürelerde çözüm üretirken, DFS derinlemesine bir arama yaptığı için çözüm süreleri daha uzun olabilir.
 -	Greedy algoritması için özel bir tasarım belirtilmemiş olsa da, genelde heuristik bir yaklaşım kullanıldığı düşünüldü.
+  
 **Taş ve Engellerin Etkisi:**
 -	Labirentlere yerleştirilen taşlar ve engeller, algoritmaların performansını etkiledi.
 -	Taşlı labirentlerde BFS ve DFS'nin performansında belirgin bir düşüş görüldü, çünkü bu algoritmalar taşlara çarptıklarında genellikle daha fazla adım atmaları gerekti.
 -	Greedy algoritması, heuristik bir yaklaşım kullanarak taş ve engelleri daha etkili bir şekilde yönetebilir.
+  
 **Labirent Boyutunun Etkisi:**
 -	Labirent boyutları arttıkça, algoritmaların çözüm süreleri genellikle arttı.
 -	BFS ve DFS, büyük labirentlerde daha fazla adım atmaları gerektiği için daha fazla süre aldı.
 -	Greedy algoritması, heuristik yaklaşımı sayesinde labirent boyutundan daha az etkilenmiş gibi görünüyor.
+  
 **Sonuçlar ve İlerleme:**
 -	Proje, farklı durumlar için çeşitli algoritmaların performansını karşılaştırmak açısından önemli bilgiler sağladı.
 -	Her algoritmanın avantajları ve dezavantajları belirlendi.
